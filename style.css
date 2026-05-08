@@ -4,6 +4,31 @@ body {
   font-size: 0.8rem;
 }
 
+/* .dark-theme {
+  background-color: #2A4688;
+  color: #cda274;
+}
+
+
+.header{
+  background-color: #eeede2;
+  
+}
+.header #dark-btn, #light-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.header #dark-btn:focus, #light-btn:focus {
+  outline: 2px solid #cda274;
+}
+.header #dark-btn svg, #light-btn svg {
+  fill: #cda274;
+  transition: fill 0.3s ease;
+}
+.header #dark-btn:hover svg, #light-btn:hover svg {
+  fill: #0151a7;
+} */
 .container {
   max-width: 400px;
   width: 100%;
@@ -18,6 +43,16 @@ body {
   top: -50px;
   background-color: #fff;
   border-radius: 50%;
+}
+
+#weekly-forecast {
+  margin-top: 20px;
+}
+
+.forecast-card {
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
 }
 
 .overlay {
@@ -51,7 +86,7 @@ body {
   
 }
 #footer {
-  position: absolute;
+  position: evenly;
   bottom: 0;
   width: 100%;
   margin-top: 30px;
